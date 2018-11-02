@@ -1,0 +1,30 @@
+{
+  "dependencies": {
+    "bcrypt": "^3.0.2",
+    "body-parser": "^1.18.3",
+    "dotenv": "^6.1.0",
+    "ejs": "^2.6.1",
+    "express": "^4.16.4",
+    "express-session": "^1.15.6",
+    "http-errors": "^1.7.1",
+    "jsonwebtoken": "^8.3.0",
+    "mocha": "^5.2.0",
+    "mongoose": "^5.3.5",
+    "morgan": "^1.9.1",
+    "passport": "^0.4.0",
+    "passport-jwt": "^4.0.0",
+    "passport-local": "^1.0.0"
+  },
+  "name": "nodejs-expressjs-boilerplate",
+  "version": "1.0.0",
+  "description": "this is an expressjs boilerplate to help you kickstart a nodejs app quickly.",
+  "main": "app.js",
+  "author": "leemlwando <leemlwando@gmail.com>",
+  "license": "MIT",
+  "private": false,
+  "scripts": {
+    "test": "mocha",
+    "start": "node ./www",
+    "dev": "nodemon ./www"
+  }
+}
