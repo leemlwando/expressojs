@@ -15,6 +15,7 @@ git clone https://github.com/leemlwando/expressojs.git
 #Running Application
 
 ```sh
+cd expressojs
 export NODE_ENV=production && yarn run start
 ```
 
